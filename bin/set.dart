@@ -1,7 +1,7 @@
 ///* SET
 ///? Set merupakan tipe data sama seperti List, namun ada beberapa hal yang berbeda dengan List
 ///? Set tidak menerima duplikat data, artinya jika kita memasukkan data duplikat, hanya satu yang diterima yang lainnya akan dihiraukan
-///? Set tidak menjamin urutan data, jika dalam List, urutan sudah pasti menggunakan undx, pada Set tidak index.
+///? Set tidak menjamin urutan data, jika dalam List, urutan sudah pasti menggunakan index, pada Set tidak index.
 
 ///* Membuat Set (menggunakan kurung kurawal)
 ///? Set<TipeData> namaVariable = {};
