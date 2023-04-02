@@ -53,15 +53,41 @@ void main() {
   print(names.length);
 
   //* Manipulasi Data di list
-  /* Add */
+  /* Add (Satu Data) -> otomatis ditambahkn pada index terakhir */
   names.add('xraid');
+  print(names);
+  /* Add (Banyak data) */
+  names.addAll(['putra', 'hadi', 'wulan', 'dll']);
+  print(names);
+
+  /* Insert pada Index keberapa dengan satu data, dimana insert(index, value) */
+  names.insert(0, 'hafix');
+  print(names);
+
+  /* Insert pada Index keberapa dengan banyak data, dimana insert(index, List) */
+  List<String> nameInsert = ['a', 'v', 'c'];
+  names.insertAll(0, nameInsert);
+  print(names);
+
   /* Get data list berdasarkan index */
   print(names[3]);
+
   /* Mengubah data list berdasarkan index */
   print(names[3] = 'hiu');
+
   /* Menghapus data lis berdasarkan index */
   names.removeAt(2);
   print(names);
+
+  /* Menghapus data list berdasarkan character, jika ada character yang sama maka dia hapus sesuai urutan index diawal */
+  names.remove('putra');
+  print(names);
+
+  /* Menggabungkan beberapa List dengan menggunakan Spread Collection */
+  List<String> kelasA = ['Hadi', 'Putra'];
+  List<String> kelasB = ['Tiya', 'Wulandari'];
+  List<String> semuaKelas = [...kelasA, ...kelasB];
+  print(semuaKelas);
 
   //* Deklarasi List Secara Langsung
   var names2 = <String>['hadi', 'tri', 'putra'];

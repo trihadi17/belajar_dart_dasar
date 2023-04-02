@@ -55,6 +55,12 @@ void main() {
   names.remove(3);
   print(names);
 
+  //? Mengetahui key nya apa saja
+  print(names.keys);
+
+  //? Mengetahui value nya apa saja
+  print(names.values);
+
   //* Deklarasi Map Secara Langsung
   var langsung = <double, String>{0.1: 'Tri', 0.2: 'Hadi', 0.3: 'Putra'};
   print(langsung[0.1]);

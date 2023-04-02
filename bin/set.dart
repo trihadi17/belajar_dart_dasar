@@ -46,6 +46,17 @@ void main() {
   print(names);
   print(names.length);
 
+  //? Fungsi Union (menggabungkan set)
+  var kelasA = <String>{'hadi', 'tri', 'putra'};
+  var kelasB = <String>{'hafix', 'wulan', 'hadi'};
+
+  var semuaKelas = kelasA.union(kelasB);
+  print(semuaKelas);
+
+  //? Fungsi Intersection (menampilkan data yang sama)
+  var intersection = kelasA.intersection(kelasB);
+  print(intersection);
+
   //* Deklarasi List Secara Langsung
   var names2 = <String>{'hadi', 'tri', 'putra'};
   print(names2);
