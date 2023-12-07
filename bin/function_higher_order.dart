@@ -4,8 +4,9 @@
 ///yang bisa dideklarasikan  oleh pengguna ketika memanggil function tersebut
 
 /* Mengambilan nilai */
-void sayHello(String name, String Function(String) filter) {
-  var filteredName = filter(name);
+void sayHello(String name, String Function(String) kataFilter) {
+  /* String Function(String) -> menampung function lain  */
+  var filteredName = kataFilter(name);
   print('Hi $filteredName');
 }
 

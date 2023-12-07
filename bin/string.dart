@@ -1,5 +1,5 @@
 void main() {
-  //? Kutip satu */
+  //? Kutip satu (disarankan) */
   String firstName = 'hadi';
   print(firstName);
   //? Kutip dua */
@@ -8,7 +8,7 @@ void main() {
 
   /** String interpolation
    * yaitu menggabungkan dua string dengan memanggil nama variable
-   * dengan cara : $nameVariable / ${$nameVariable/expression}
+   * dengan cara : $nameVariable / ${nameVariable/expression}
    */
 
   var fullName = '$firstName ${lastname}';

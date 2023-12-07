@@ -6,6 +6,7 @@
 ///* Membuat Set (menggunakan kurung kurawal)
 ///? Set<TipeData> namaVariable = {};
 ///? var namaVariable = <TipeData>{};
+///? final namaVariable = <TipeData>{};
 
 ///* Manipulasi Set
 ///? set.length -> mengambil jumlah data dari set

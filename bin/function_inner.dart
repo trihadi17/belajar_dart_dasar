@@ -16,9 +16,9 @@ void main() {
 
     void sayHelloAgain() {
       print('wwkwkwk');
-
-      sayHelloAgain();
     }
+
+    sayHelloAgain();
   }
 
   sayHello1();

@@ -20,7 +20,13 @@ void main() {
   /* a = a + 10;
   print(a); */
 
+  //? Operator penugasan
   a += 10;
+  /* a -= 10; */ // Kurang
+  /* a *= 10; */ // Kali
+  /* a /= 10; */ // Bagi (hasilnya double)
+  /* a ~/= 10; */ // bagi (hasil int)
+  /* a %= 10; */ // modulo
   print(a);
 
   //? Increament dan decreament
@@ -28,11 +34,11 @@ void main() {
   //i++; // artinya i = i + 1
 
   var j =
-      i++; // artinya j mengambil i = 0, kemudian setelah itu baru ditambahkan 1
+      i++; // artinya j mengambil i = 0, kemudian setelah itu baru ditambahkan 1 jika ada pemanggilan i kembali
 
-  var k = ++i; // artinya k = 1 + i (0)
+  var k = ++i; // artinya i = 1 didapat dari j, karna ++i jadi 1 + i (1) = 2
 
-  print(i);
-  print(j);
-  print(k);
+  print(i); // i = 2
+  print(j); // 0
+  print(k); // 2
 }

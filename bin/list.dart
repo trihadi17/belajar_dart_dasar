@@ -1,8 +1,9 @@
 ///* LIST
 ///? tipe data yang berisikan kumpul data (array)
 ///? list memiliki property, method dan operator
+///? Jika tidak mendeklarasikan tipe datanya, maka otomatis tipe data menjadi 'dynamic'
 
-///* Membuat list 9(menggunakan kurung siku)
+///* Membuat list (menggunakan kurung siku)
 ///? List<TipeData> namaVariable = [];
 ///? var namaVariable = <TipeData>[];
 ///? final namaVariable = <TipeData>[];
@@ -89,7 +90,7 @@ void main() {
   List<String> semuaKelas = [...kelasA, ...kelasB];
   print(semuaKelas);
 
-  //* Deklarasi List Secara Langsung
+  //* Deklarasi List Secara Langsung (apabila datanya udah pasti)
   var names2 = <String>['hadi', 'tri', 'putra'];
   print(names2);
   var names3 = ['hadi', 'tri', 'putra'];

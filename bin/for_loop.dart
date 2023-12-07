@@ -10,7 +10,7 @@
 
 /** Keterangan
  * init statement akan di eksekusi sekali sebelum perulangan
- * kondisi akan dilakukan pengencekan dalam setiap perulangan, jika true akan dilakukan dan false akan terhenti
+ * kondisi akan dilakukan pengencekan dalam setiap perulangan, jika true akan dilakukan dan false akan terhenti. (Jika kondisi tidak di inisialisasi maka dia akan terus bernilai true)
  * post statement akan di ekseskusi diakhir perulangan
  */
 
@@ -23,7 +23,7 @@ void main() {
   //? Perulangan Dengan Kondisi
   var counter = 1;
   for (; counter <= 10;) {
-    print('Perulangan ke-$counter');
+    print('Perulangan ke-${counter}');
     counter++;
   }
 

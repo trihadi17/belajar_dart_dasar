@@ -9,5 +9,10 @@ void main() {
   print(sum(1000, 999));
 }
 
-//function short expression
+//* Function return value biasa
+/* int sum(int first, int second){
+  return first + second; //-> hanya satu baris saja, disarakan untuk pakai function short expression
+} */
+
+//* Function short expression
 int sum(int first, int second) => first + second;

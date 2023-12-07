@@ -2,7 +2,7 @@ void main() {
   //? String dan harus bernilai angka//
   var inputString = '1000';
 
-  //? String to Int //
+  //? String to Int -> menggunakan .parse() //
   var inputInt = int.parse(inputString);
 
   //? String to double //
@@ -20,15 +20,16 @@ void main() {
   var doubleToInt = inputDouble.toInt();
   print(doubleToInt);
 
-  //? string to int & double
-  var stringToInt = inputInt.toString();
-  print(stringToInt);
+  //? int & double to string
+  var intToString = inputInt.toString();
+  print(intToString);
 
-  var stringToDouble = inputDouble.toString();
-  print(stringToDouble);
+  var doubleToString = inputDouble.toString();
+  print(doubleToString);
 
   //? string ke boolean
   var inputString1 = 'true';
+  /* Dengan menggunakan operator perbandingan */
   var inputBool = inputString1 == 'true';
   print(inputBool);
 

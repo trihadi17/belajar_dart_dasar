@@ -23,7 +23,7 @@
 /// Namun, jika datanya null maka otomatis akan muncul pesan error ketika aplikasi berjalan, jadi gunakan secara bijak
 
 /// 1.5 Mengakses Nullable Member
-/// Saat kita mengakses nullable member (property, method, operator), maka secara default Dar akan memberikan peringatan untuk melakukan null check
+/// Saat kita mengakses nullable member (property, method, operator), maka secara default Dart akan memberikan peringatan untuk melakukan null check
 /// namun kita mengakses nullable member dengan aman dengan cara menggunakan karakter '?'
 /// namun konsekuensinya, ketika mengakses nullable member, hasil dari member tersebut bisa jadi null kalau datanya ternyata null
 
@@ -38,13 +38,13 @@ void main() {
     print(age.toDouble());
   }
 
-  //? Konversi Non Nullable ke Nullable
+  //? Konversi Non Nullable ke Nullable (bisa langsung tanpa harus di check/konversi)
   String name = 'Hadi';
   String? nullableName = name;
 
   print(nullableName);
 
-  //? Konversi Nullable ke Non Nullable
+  //? Konversi Nullable ke Non Nullable (harus null check dulu baru pindahin ke non nullable)
   int? nullablePrice = null;
   if (nullablePrice != null) {
     //harus menggunakan check null jika ingin konversi ke non nullable
@@ -63,9 +63,11 @@ void main() {
   int? nullableNumber;
   //nullableNumber = 10;
   int nonNullableNumber = nullableNumber!; //error
+  //print(nonNullableNumber);
 
   //? Mengakses Nullable member
   int? intNumber;
+  //intNumber = 10;
   double? doubleNumber = intNumber
       ?.toDouble(); // tanpa menggunakan null checl dengan syarat variable juga boleh null
 

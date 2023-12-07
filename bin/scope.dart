@@ -1,5 +1,3 @@
-import 'function.dart';
-
 ///Scope
 ///adalah variable atau function yang bisa diakses dalam area dimana mereka dibuat
 

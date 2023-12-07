@@ -12,10 +12,10 @@
 /// var namaVariable = <TipeKey, TipeValue>{};
 
 ///* Manipulasi Data Map
-/// map.length
-/// map[key]
-/// map[key] = value
-/// map.remove(key)
+/// map.length ->> mendapatkan panjang map
+/// map[key] ->. mendapatkan data di map
+/// map[key] = value ->> mengubah data di map
+/// map.remove(key) ->> menghapus data di map
 
 ///* Deklarasi Map Secara Langsung
 ///? var namaVariable = <TipeKey, TipeValue>{
